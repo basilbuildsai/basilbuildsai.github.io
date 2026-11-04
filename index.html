@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basil Builds</title>
+<meta name="description" content="Public dashboards by Basil Yap on drones and advanced air mobility.">
+<meta property="og:title" content="Basil Builds">
+<meta property="og:description" content="Public dashboards by Basil Yap on drones and advanced air mobility.">
+<meta property="og:url" content="https://basilbuildsai.github.io/">
+<meta property="og:image" content="https://basilbuildsai.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 fill=%22%230A0A0A%22/%3E%3Crect x=%224%22 y=%224%22 width=%2224%22 height=%2224%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%222.5%22/%3E%3Ctext x=%2216%22 y=%2221.5%22 font-family=%22Arial%22 font-weight=%22700%22 font-size=%2214%22 fill=%22%23fff%22 text-anchor=%22middle%22%3EB%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..100,400..800&display=swap" rel="stylesheet">
+<style>
+:root{--black:#0A0A0A;--white:#FFFFFF;--yellow:#F4E04D;--ink2:#575757}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--white);color:var(--black);font-family:Archivo,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.x{font-stretch:62%;font-weight:800;text-transform:uppercase;letter-spacing:-.01em;line-height:.88}
+header{background:var(--black);color:var(--white);padding:40px 0 34px}
+.wrap{max-width:672px;margin:0 auto;padding-left:16px;padding-right:16px}
+.logo{display:inline-block;border:3px solid var(--white);padding:6px 12px 4px;font-size:30px;font-weight:700;letter-spacing:.14em;line-height:1.05;text-align:center}
+header p{font-size:19px;line-height:1.4;margin-top:22px;max-width:34ch}
+main{padding-top:28px;padding-bottom:48px}
+h2.lab{font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding-bottom:10px;border-bottom:2px solid var(--black)}
+a.card{display:block;color:inherit;text-decoration:none;border:2px solid var(--black);margin-top:20px;background:var(--white);transition:transform .12s,box-shadow .12s}
+@media (hover:hover){a.card:hover{transform:translate(-3px,-3px);box-shadow:6px 6px 0 var(--yellow)}}
+a.card:focus-visible{outline:3px solid var(--black);outline-offset:3px;box-shadow:6px 6px 0 var(--yellow)}
+.card img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;border-bottom:2px solid var(--black);background:#F0F0F0}
+.card div{padding:16px 16px 18px}
+.card h3{font-size:44px}
+.card p{font-size:17px;line-height:1.4;margin-top:10px}
+.card .go{display:inline-block;margin-top:14px;background:var(--yellow);font-size:15px;font-weight:700;padding:6px 10px}
+footer{border-top:2px solid var(--black);margin-top:36px;padding-top:14px;font-size:14px;color:var(--ink2)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1 class="logo">BASIL<br>BUILDS</h1>
+  <p>I enjoy building things with AI and have an interest in aviation. These dashboards are free and built from public data.</p>
+</div></header>
+<main class="wrap">
+  <h2 class="lab">Dashboards</h2>
+
+  <a class="card" href="https://basilbuildsai.github.io/dfr-program-map/">
+    <img src="https://basilbuildsai.github.io/dfr-program-map/og-v3.jpg" alt="" width="1200" height="630">
+    <div><h3 class="x">DFR Adoption Map</h3>
+      <p>Which U.S. police and fire departments fly drones as first responders, and whose drones they use. Built on FAA waiver records.</p>
+      <span class="go">Open the map</span></div>
+  </a>
+
+  <a class="card" href="https://basilbuildsai.github.io/aam-resource-map/">
+    <img src="https://basilbuildsai.github.io/aam-resource-map/og.png" alt="" width="1200" height="630" loading="lazy">
+    <div><h3 class="x">U.S. AAM Resource Map</h3>
+      <p>State and local advanced air mobility studies, from statewide plans to city and airport work, and the FAA's eIPP teams.</p>
+      <span class="go">Open the map</span></div>
+  </a>
+
+  <a class="card" href="https://basilbuildsai.github.io/aam-fleet-registry/">
+    <img src="https://basilbuildsai.github.io/aam-fleet-registry/og.png" alt="" width="1200" height="630" loading="lazy">
+    <div><h3 class="x">AAM Fleet Registry</h3>
+      <p>The aircraft that eVTOL, eSTOL and hybrid electric companies hold on the FAA registry, and where they fly. Rebuilt every night.</p>
+      <span class="go">Open the registry</span></div>
+  </a>
+
+  <footer>Basil Yap</footer>
+</main>
+</body>
+</html>
